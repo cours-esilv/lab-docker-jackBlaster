@@ -1,0 +1,1 @@
+docker run -d -p 8081:80 --name front_container --link container_td3 -e WS_BACK_URL=http://localhost:5000 jackblaster/frontend_image_td3:latest
